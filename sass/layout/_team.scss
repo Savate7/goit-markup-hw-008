@@ -1,0 +1,109 @@
+.team-section-style {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--white-second-color);
+
+  @media screen and (min-width: 1200px)  {
+      
+    padding-bottom: 94px;
+    padding-top: 94px;
+
+   }
+   .conteiner {
+    @media screen and (min-width: 768px) and (max-width: 1600px) {
+      margin-left: -15px;
+    }
+   }
+  }
+
+
+.team-block{
+  margin: 0 auto;  
+  // display: flex;
+  // justify-content: center;
+  // text-align: center;
+  // // li{
+  // //   margin-right: 30px;
+  // }
+  // & :last-child{
+  //   margin-right: 0;
+  // }
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+      
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    display: flex;
+        
+  }
+  
+}
+.team-block__item{   
+  margin: 0 auto;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--other-text-ff);
+
+  h3{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  margin-bottom: 10px;}
+
+  p{
+    font-size: 16px;
+    line-height: 1.171;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 320px) {
+    width: auto;
+  }
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+    
+    &:last-child{
+    margin-bottom: 0;
+    }
+    
+  }
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+      width: 450px;
+       } 
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width: 354px;     
+      
+    } 
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      margin-bottom: 0;
+    }
+}
+.team-item {
+  padding: 30px 0;
+  text-align: center;
+  
+}
+
+
+.team-section-style__social{ 
+    a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    & :not(:last-child){
+      margin-right: 10px; 
+  }}
+
+

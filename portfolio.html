@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html   lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porfolio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./sass/main.css">
+
+</head>
+<body>
+        <!-- Head section -->
+        <header>
+            <div class="conteiner">
+                <a href="" class="logo_style">Web<span class="logo_text">Studio</span></a>     
+                <button class="button-menu" type="button"  data-menu-open>
+                    <svg class="icon-menu" width="24px" height="16px">
+                        <use href="./images/icons/sprite.svg#icon-menu"></use>
+                    </svg>
+                </button>       
+                <nav class="header_nav">                
+                    <ul class="header-link">
+                        <li class="header-link__item">                        
+                            <a href="./index.html">Студия</a>                
+                        </li>
+                        <li class="header-link__item">
+                            <a href="./portfolio.html" class="header-link__item-current">Портфолио</a>
+                        </li>
+                        <li class="header-link__item">
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>           
+                </nav>           
+                <ul class="header-contacts">  
+    
+                    <li class="header-contacts__one">                     
+                        <a class="header-contacts__item" href="mailto:info@devstudio.com">
+                            <svg class="header_icon" width="16px" height="12px">
+                                <use href="./images/icons/sprite.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com
+                        </a>
+                                         
+                    </li>
+                    <li> 
+                        <a class="header-contacts__item" href="tel:+380961111111">
+                            <svg class="header_icon" width="10px" height="16px">
+                                <use href="./images/icons/sprite.svg#icon-smartphone"></use>
+                            </svg>+38 096 111 11 11
+                        </a>  
+                                      
+                    </li>
+                </ul>        
+            </div>
+            
+        </header>
+    <main> 
+        <section class="portfolio">
+            <div class="conteiner">               
+                <ul class="port-button">
+                    <li><button type="button" class="port-button__item">Все</button></li>
+                    <li><button type="button" class="port-button__item">Веб-сайты</button></li>
+                    <li><button type="button" class="port-button__item">Приложения</button></li>
+                    <li><button type="button" class="port-button__item">Дизайн</button></li>
+                    <li><button type="button" class="port-button__item">Маркетинг</button></li>
+                </ul>
+                <ul class="port-card">                    
+                        <li>   
+                            <a class="port-card_item" href="">
+                                <div class="card_div">  
+                                    <picture>
+                                        <source
+                                            srcset="
+                                            ./images/parfolio-img/img1.jpg 1x,
+                                            ./images/parfolio-img/img1-2x.jpg 2x
+                                            "
+                                            media="(min-width: 1200px)"
+                                        >
+                                        <source
+                                            srcset="
+                                            ./images/parfolio-img/img1-tablet.jpg 1x,
+                                            ./images/parfolio-img/img1-tablet-2x.jpg 2x
+                                            "
+                                            media="(min-width: 768px)"
+                                        >
+                                        <source
+                                            srcset="
+                                            ./images/parfolio-img/img1-mob.jpg 1x,
+                                            ./images/parfolio-img/img1-mob-2x.jpg 2x
+                                            "
+                                            media="(min-width: 0px)"
+                                        >
+                                        <img src="./images/parfolio-img/img1.jpg" alt="img1">
+                                    </picture>                                    
+                                    <p class="card_text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                                </div>  
+                                <div class="port_item">
+                                    <h3>Технокряк</h3>
+                                    <p>Веб-сайт</p> 
+                                </div>
+                            </a>               
+                        </li>
+
+                        <li>
+                            <a class="port-card_item" href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img2.jpg 1x,
+                                        ./images/parfolio-img/img2-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img2-tablet.jpg 1x,
+                                        ./images/parfolio-img/img2-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img2-mob.jpg 1x,
+                                        ./images/parfolio-img/img2-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img2.jpg" alt="img2">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Постер New Orlean vs Golden Star</h3>
+                                    <p>Дизайн</p>
+                                </div>
+                            </a>
+                        </li>                    
+                    
+                        <li>
+                            <a href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img3.jpg 1x,
+                                        ./images/parfolio-img/img3-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img3-tablet.jpg 1x,
+                                        ./images/parfolio-img/img3-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img3-mob.jpg 1x,
+                                        ./images/parfolio-img/img3-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img3.jpg" alt="img3">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Ресторан Seafood</h3>
+                                    <p>Приложение</p>
+                                </div>
+                            </a>
+                        </li>                    
+                    
+                        <li>
+                            <a href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img4.jpg 1x,
+                                        ./images/parfolio-img/img4-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img4-tablet.jpg 1x,
+                                        ./images/parfolio-img/img4-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img4-mob.jpg 1x,
+                                        ./images/parfolio-img/img4-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img4.jpg" alt="img4">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Проект Prime</h3>
+                                    <p>Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>                    
+                    
+                        <li>
+                            <a href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img5.jpg 1x,
+                                        ./images/parfolio-img/img5-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img5-tablet.jpg 1x,
+                                        ./images/parfolio-img/img5-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img5-mob.jpg 1x,
+                                        ./images/parfolio-img/img5-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img5.jpg" alt="img5">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Проект Boxes</h3>
+                                    <p>Приложение</p>
+                                </div>
+                            </a>
+                        </li>                    
+                    
+                        <li>
+                            <a href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img6.jpg 1x,
+                                        ./images/parfolio-img/img6-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img6-tablet.jpg 1x,
+                                        ./images/parfolio-img/img6-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img6-mob.jpg 1x,
+                                        ./images/parfolio-img/img6-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img6.jpg" alt="img6">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Inspiration has no Borders</h3>
+                                    <p>Веб-сайт</p>
+                                </div>
+                            </a> 
+                        </li>                   
+                    
+                        <li>
+                            <a href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img7.jpg 1x,
+                                        ./images/parfolio-img/img7-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img7-tablet.jpg 1x,
+                                        ./images/parfolio-img/img7-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img7-mob.jpg 1x,
+                                        ./images/parfolio-img/img7-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img7.jpg" alt="img7">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Издание Limited Edition</h3>
+                                    <p>Дизайн</p>
+                                </div>
+                            </a> 
+                        </li>                   
+                   
+                        <li> 
+                            <a href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img8.jpg 1x,
+                                        ./images/parfolio-img/img8-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img8-tablet.jpg 1x,
+                                        ./images/parfolio-img/img8-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img8-mob.jpg 1x,
+                                        ./images/parfolio-img/img8-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img8.jpg" alt="img8">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Проект LAB</h3>
+                                    <p>Веб-сайт</p>
+                                </div>
+                            </a>    
+                    </li>                   
+                    
+                        <li>
+                            <a href="">
+                                <picture>
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img9.jpg 1x,
+                                        ./images/parfolio-img/img9-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img9-tablet.jpg 1x,
+                                        ./images/parfolio-img/img9-tablet-2x.jpg 2x
+                                        "
+                                        media="(min-width: 768px)"
+                                    >
+                                    <source
+                                        srcset="
+                                        ./images/parfolio-img/img9-mob.jpg 1x,
+                                        ./images/parfolio-img/img9-mob-2x.jpg 2x
+                                        "
+                                        media="(min-width: 0px)"
+                                    >
+                                    <img src="./images/parfolio-img/img9.jpg" alt="img9">
+                                </picture>
+                                <div class="port_item">
+                                    <h3>Growing Business</h3>
+                                    <p>Приложение</p>
+                                </div>
+                            </a>     
+                        </li>
+                                  
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- contects -->
+    <footer>        
+        <div class="conteiner">
+            <div class="footer-contacts">
+                <a href="" class="logo_style">Web<span class="logo_text2">Studio</span></a>
+                <address>
+                    <ul class="contacts">
+                        <li> <a href="http://surl.li/vuvc" target="_blank" rel="noopener" > г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="cotacts__style"><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li class="cotacts__style"><a href="tel:+380991111111">+38 099 111 11 11</a></li>                
+                    </ul>
+                    
+                </address>
+            </div>
+            <div class="new-section">
+                <p class="soc-item">присоединяйтесь</p> 
+                <ul class="footer__social social">                               
+                    <li><a href="">                        
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                            </svg>                                    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg width="20px" height="20px">
+                                <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>                                
+                </ul>
+            </div>
+            <div class="sender">
+                <p class="soc-item">Подпишитесь на рассылку</p>
+                <form action="#" class="sender-block">
+                    <input 
+                    type="mail" 
+                    class="sender-block__mail"
+                    placeholder="E-mail"
+                    >
+                    <button type="submit" class="sender-block__button">Подписаться
+                        <svg class="icon-send" widht="24px" height="24px">
+                            <use href="./images/icons/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="bg-menu is-hidden" data-menu>
+       
+        
+        <div class="menu">
+            <button type="button" class="menu_close" data-menu-close>
+                <svg class="menu_close_icon" width="18px" height="18px">
+                    <use href="./images/icons/sprite.svg#icon-close"></use>
+                </svg>    
+            </button>
+            
+            <nav class="menu-nav">                
+                <ul class="menu-link">
+                    <li class="menu-link__item">                        
+                        <a href="./index.html">Студия</a>                
+                    </li>
+                    <li class="menu-link__item">
+                        <a href="./portfolio.html" class="header-link__item-current">Портфолио</a>
+                    </li>
+                    <li class="menu-link__item">
+                        <a href="">Контакты</a>
+                    </li>
+                </ul>           
+            </nav> 
+                <div>    
+                    <ul class="menu-contacts">
+
+                        <li> 
+                            <a class="menu-contacts__tel" href="tel:+380961111111">
+                                +38 096 111 11 11
+                            </a>  
+                                        
+                        </li>
+
+
+                        <li class="menu-contacts__one">                     
+                            <a class="menu-contacts__mail" href="mailto:info@devstudio.com">                    
+                                info@devstudio.com
+                            </a>
+                                            
+                        </li>
+
+                        
+                    </ul> 
+                    <ul class="menu-social">                               
+                        <li><a href="">Instagram                                 
+                            </a>
+                        </li>
+                        <li class="menu-social__item">
+                            <a href="">
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="menu-social__item">
+                            <a href="">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="menu-social__item">
+                            <a href="">
+                                LinkedIn
+                            </a>
+                        </li>
+                </div>  
+        <!-- <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal_close" data-modal-close>
+                    <svg class="modal_close_icon" width="11px" height="11px">
+                        <use href="./images/icons/sprite.svg#icon-close"></use>
+                    </svg>    
+                </button>   -->
+            </div>
+    </div>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
