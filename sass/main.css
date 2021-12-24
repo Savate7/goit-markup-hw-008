@@ -1122,12 +1122,14 @@ header .conteiner {
 @media screen and (min-width: 0px) and (max-width: 479px) {
   .client {
     width: 100%;
+    margin: -15px;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .client {
     width: 480px;
+    margin: -15px;
   }
 }
 
