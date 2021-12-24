@@ -3,19 +3,24 @@
   
   @media screen and (max-width: 1199px) {
     display: none;
-  } }
+  } 
+    .conteiner{
+      width: 1200px;
+      // padding: 0;
+    }
+}
   
   .studio {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    & :not(:last-child) {
-      margin-right: 30px;
-    }
+    justify-content: space-between;
+   
     li{
-      width: 370px;
+         
       position: relative;
+      
     }  
+    
   }
     
  
@@ -36,3 +41,5 @@
     font-weight: bold;
     padding: 27px;
   }
+
+  

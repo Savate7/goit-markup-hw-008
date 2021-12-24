@@ -803,12 +803,6 @@ header .conteiner {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1600px) {
-  .info-about-us .conteiner {
-    margin-left: -15px;
-  }
-}
-
 .info-list {
   margin: 0 auto;
 }
@@ -938,6 +932,10 @@ header .conteiner {
   }
 }
 
+.studio-style .conteiner {
+  width: 1200px;
+}
+
 .studio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -946,17 +944,12 @@ header .conteiner {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.studio :not(:last-child) {
-  margin-right: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .studio li {
-  width: 370px;
   position: relative;
 }
 
@@ -987,12 +980,6 @@ header .conteiner {
   .team-section-style {
     padding-bottom: 94px;
     padding-top: 94px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1600px) {
-  .team-section-style .conteiner {
-    margin-left: -15px;
   }
 }
 
@@ -1114,15 +1101,6 @@ header .conteiner {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-}
-
-.client-section .title-h2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.client-section .conteiner {
-  margin: -15px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 479px) {
@@ -1698,8 +1676,10 @@ footer .conteiner {
 }
 
 .icon-send {
+  height: 24px;
+  width: 24px;
   fill: var(--other-text-ff);
   position: absolute;
-  left: 10px;
+  left: 148px;
 }
 /*# sourceMappingURL=main.css.map */
