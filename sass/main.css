@@ -988,6 +988,34 @@ header .conteiner {
   }
 }
 
+.team-first {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+  .team-first {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .team-first {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team-first {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-first {
+    width: 1200px;
+  }
+}
+
 .team-block {
   margin: 0 auto;
 }
@@ -1165,7 +1193,7 @@ header .conteiner {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .client {
     width: 768px;
-    margin-left: 0;
+    margin-left: 0px;
   }
 }
 
