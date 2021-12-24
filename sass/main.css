@@ -877,8 +877,7 @@ header .conteiner {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-preferred-size: calc((100% - 4 * 15px) / 2);
-        flex-basis: calc((100% - 4 * 15px) / 2);
+    justify-self: center;
   }
 }
 
@@ -983,6 +982,12 @@ header .conteiner {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team-section-style .conteiner .title-h2 {
+    margin: 0;
+  }
+}
+
 .team-block {
   margin: 0 auto;
 }
@@ -1060,6 +1065,8 @@ header .conteiner {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team-block__item {
     width: 354px;
+    margin-top: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -1103,39 +1110,62 @@ header .conteiner {
   }
 }
 
+.client-first {
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 0px) and (max-width: 479px) {
-  .client-section .conteiner {
-    margin-left: 0;
-    margin-right: 0;
+  .client-first {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .client-first {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .client-first {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .client-first {
+    width: 1200px;
   }
 }
 
 .client {
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: -15px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 479px) {
   .client {
     width: 100%;
-    margin: -15px;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .client {
     width: 480px;
-    margin: -15px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .client {
-    width: 786px;
+    width: 768px;
+    margin-left: 0;
   }
 }
 
@@ -1152,6 +1182,12 @@ header .conteiner {
 @media screen and (min-width: 0px) and (max-width: 479px) {
   .client__item {
     width: calc((100% - 4 * 15px) / 2);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .client__item {
+    width: calc((100% - 6 * 15px) / 3);
   }
 }
 

@@ -79,7 +79,10 @@
       width: 768px;
       display: flex;
       flex-wrap: wrap; 
-      flex-basis: calc((100% - 4 * 15px) / 2 );
+      // flex-basis: calc((100% - 4 * 15px) / 2 );
+      justify-self: center;
+     
+      // margin-left: -15px;
       
       
     } 
